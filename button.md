@@ -47,21 +47,29 @@ Attributes
 
 ### `[<esc_name>]`
 
-The **esc_name** element adds the `name` attribute to the final rendered button
+The **esc_name** element adds the `name` attribute to the final rendered button.
 
-| Attribute | Required | Type |
-| --- | --- | --- |
-| **esc_name** | no | string |
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_name** |
+|  Required  | no |
+|  Type  | string |
 
+<br/>
 
 ### `[<esc_enabled>]` 
 
-The **esc_enabled** element adds the `enabled` attribute to the final rendered button
+The **esc_enabled** element adds the `enabled` attribute to the final rendered button.
 
-| Attribute | Required | Type | Value |
-| --- | --- | --- | --- |
-| **esc_enabled** | no | boolean | `true \| false` |
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_enabled** |
+|  Required  | no |
+|  Type  | boolean |
+|  Value  | `true \| false` |
 
+
+<br/>
 
 ### `[<esc_type>]`
 
@@ -72,11 +80,15 @@ The **esc_type** element set the style to the button shape:
 
 The default value is `strong`.
 
-| Attribute | Required | Type | Value | Default |
-| --- | --- | --- | --- | --- |
-| **esc_type** | no | enum | `strong \| ghost \| subtle` | `strong` |
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_type** |
+|  Required  | no |
+|  Type  | enum |
+|  Value  | `strong \| ghost \| subtle` |
+|  Default  | `strong` |
 
-
+<br/>
 
 ### `[<esc_style>]`
 
@@ -86,10 +98,15 @@ The **esc_style** element set the font style modes to the button label:
 
 The default value is `regular`.
 
-| Attribute | Required | Type | Value | Default |
-| --- | --- | --- | --- | --- |
-| **esc_style** | no | enum | `regular \| light` | `regular` |  
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_style** |
+|  Required  | no |
+|  Type  | enum |
+|  Value  | `regular \| light` |
+|  Default  | `regular` |
 
+<br/>
 
 ### `[<esc_orientation>]`
 
@@ -99,23 +116,32 @@ The **esc_style** element set the orientation style to the button label:
 
 The default value is `horizontal`.
 
-| Attribute | Required | Type | Value | Default |
-| --- | --- | --- | --- | --- |
-| **esc_orientation** | no | enum | `horizontal \| vertical` | `horizontal` |  
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_orientation** |
+|  Required  | no |
+|  Type  | enum |
+|  Value  | `horizontal \| vertical` |
+|  Default  | `horizontal` |
 
+<br/>
 
 ### `[<esc_on_selects>]`
 
 The **esc_on_selects** element adds the behavior on button click. It accepts javascript.
 
-| Attribute | Required | Value |
-| --- | --- | --- | 
-| **esc_on_selects** | no | [\<esc_on_select\>] | 
- 
-- ### `[<esc_on_select>]`
+| Label | Description |
+| --- | --- | 
+|  Attribute   | **esc_on_selects** |
+|  Required  | no |
+|  Value  | \<esc_on_select\> |
 
-  The **esc_on_select** element adds the `onClick` event to the rendered button. It returns the Event object and accepts pure javascript to handle the event data.  
-  
-  | Attribute | Required | Type |
-  | --- | --- | --- | 
-  | **esc_on_select** | yes | string |
+ - ### `<esc_on_select>`
+
+  The **esc_on_select** element adds the `onClick` event to the rendered button. It returns the Event object and accepts pure javascript as string to handle the event data.  
+
+  | Label | Description |
+  | --- | --- | 
+  |  Attribute   | **esc_on_select** |
+  |  Required  | yes |
+  |  Value  | string |
