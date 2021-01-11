@@ -138,10 +138,10 @@ The **esc_on_selects** element adds the behavior on button click. It accepts jav
 
  - ### `<esc_on_select>`
 
-  The **esc_on_select** element adds the `onClick` event to the rendered button. It returns the Event object and accepts pure javascript as string to handle the event data.  
+   The **esc_on_select** element adds the `onClick` event to the rendered button. It returns the Event object and accepts pure javascript as string to handle the event data.  
 
-  | Label | Description |
-  | --- | --- | 
-  |  Attribute   | **esc_on_select** |
-  |  Required  | yes |
-  |  Value  | string |
+   | Label | Description |
+   | --- | --- | 
+   |  Attribute   | **esc_on_select** |
+   |  Required  | yes |
+   |  Value  | string |
