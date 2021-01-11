@@ -1,10 +1,18 @@
-`<esc-button>` #[esc-button]
+`<esc-button>`
 ================================================================================
 ## Table of Contents
 
 - [Overview](#overview)
 - [Sintax](#sintax)
 - [Attributes](#attributes)
+    - [\<esc_name\>](#esc_name)
+    - [\<esc_type\>](#esc_type)
+    - [\<esc_style\>](#esc_style)
+    - [\<esc_orientation\>](#esc_orientation)
+    - [\<esc_on_selects\>](#esc_on_selects)
+       - [\<esc_on_select\>](#esc_on_select)
+  
+    
 
 Overview
 --------------------------------------------------------------------------------
@@ -134,7 +142,7 @@ The **esc_on_selects** element adds the behavior on button click. It accepts jav
 | --- | --- | 
 |  Attribute   | **esc_on_selects** |
 |  Required  | no |
-|  Value  | \<esc_on_select\> |
+|  Value  | [\<esc_on_select\>](#esc_on_select) |
 
  - ### `<esc_on_select>`
 
