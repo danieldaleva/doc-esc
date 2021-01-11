@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content>
+	<meta charset="utf-8">
+	<script src="/static/web-standard/TBD/js/web-standard-en-US.min.js" defer="defer"></script>
+	<script src="/static/web-standard/TBD/js/check-browser.min.js"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/favicons/site.webmanifest">
+	<link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg"
+	 color="#3291ff">
+	<link rel="stylesheet" type="text/css" href="/static/web-standard/TBD/css/web-standard.min.css">
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		esc.processDom();
+	});
+	</script>
+</head>
+<body class="esc-page">
+	<main class="esc-panel--column esc-m-align-top">
+		<h2>esc_on_select</h2>
+		<div class="esc-card esc-t-light" data-esc-process-destroyable>
+			<div class="esc-panel--column esc-c-body esc-panel">
+				<h3> &lt;esc_name&gt;var-1&lt;/esc_name&gt;<br>
+					&lt;esc_value&gt;click-1&lt;/esc_value&gt;<br> &lt;esc_on_selects&gt;<br>
+					&#xA0;&#xA0;&#xA0;&#xA0;&lt;esc_on_select&gt;console.log(&apos;button1&apos;,
+					event.id, event.selection)&lt;/esc_on_select&gt;<br>
+					&lt;/esc_on_selects&gt;<br>
+				</h3>
+				<button tabindex="0" class="esc-button" data-esc-id="var-1"
+				 data-esc-process-button='{"value":"click-1","onSelection":["console.log(&apos;button1&apos;, event.id, event.selection)"]}'
+				 id="button1"><span class="esc-c-label">Button 1</span></button>
+				<h3> &lt;esc_name&gt;var-2&lt;/esc_name&gt;<br>
+					&lt;esc_value&gt;click-2&lt;/esc_value&gt;<br> &lt;esc_on_selects&gt;<br>
+					&#xA0;&#xA0;&#xA0;&#xA0;&lt;esc_on_select&gt;console.log(&apos;button2&apos;,
+					event.id, event.selection)&lt;/esc_on_select&gt;<br>
+					&lt;/esc_on_selects&gt;<br>
+				</h3>
+				<button tabindex="0" class="esc-button" data-esc-id="var-2"
+				 data-esc-process-button='{"value":"click-2","onSelection":["console.log(&apos;button2&apos;, event.id, event.selection)"]}'
+				 id="button2"><span class="esc-c-label">Button 2</span></button>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
