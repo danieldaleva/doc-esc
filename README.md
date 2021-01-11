@@ -136,7 +136,7 @@ The default value is `horizontal`.
 
 ### `[<esc_on_selects>]`
 
-The **esc_on_selects** element adds the behavior on button click. It accepts javascript.
+The **esc_on_selects** element adds the behavior to the button click event. See [\<esc_on_select\>](#esc_on_select) attribute.
 
 | Label | Description |
 | --- | --- | 
