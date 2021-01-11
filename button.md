@@ -88,7 +88,7 @@ The default value is `regular`.
 
 | Attribute | Required | Type | Value | Default |
 | --- | --- | --- | --- | --- |
-| **esc_style** | no | enum | `regular \| light` | `regular` |
+| **esc_style** | no | enum | `regular \| light` | `regular` |  
 
 
 ### `[<esc_orientation>]`
@@ -99,24 +99,23 @@ The **esc_style** element set the orientation style to the button label:
 
 The default value is `horizontal`.
 
-| Attribute | Required | Type | Value | Default 
+| Attribute | Required | Type | Value | Default |
 | --- | --- | --- | --- | --- |
-| **esc_orientation** | no | enum | `horizontal \| vertical` | `horizontal`
+| **esc_orientation** | no | enum | `horizontal \| vertical` | `horizontal` |  
 
 
 ### `[<esc_on_selects>]`
 
-The **esc_on_selects** element adds the `enabled` attribute to the final rendered button
+The **esc_on_selects** element adds the behavior on button click. It accepts javascript.
 
 | Attribute | Required | Value |
 | --- | --- | --- | 
-| **esc_on_selects** | no | [\<esc_on_select\>](#[<esc_on_select>]) |
-
-		
+| **esc_on_selects** | no | [\<esc_on_select\>] | 
+ 
 - ### `[<esc_on_select>]`
 
-  The **esc_on_selects** element adds the `enabled` attribute to the final rendered button
-
+  The **esc_on_select** element adds the `onClick` event to the rendered button. It returns the Event object and accepts pure javascript to handle the event data.  
+  
   | Attribute | Required | Type |
   | --- | --- | --- | 
   | **esc_on_select** | yes | string |
